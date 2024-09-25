@@ -6,7 +6,6 @@ class ExitProblem(SearchProblem[WorldState]):
     """
     A simple search problem where the agents must reach the exit **alive**.
     """
-
     def is_goal_state(self, state: WorldState) -> bool:
         # Check if all agents are alive
         if not all(state.agents_alive):

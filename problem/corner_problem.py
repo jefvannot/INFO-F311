@@ -96,5 +96,3 @@ class CornerProblem(SearchProblem[CornerState]):
 
     #     return mst_cost
 
-
-

@@ -13,7 +13,6 @@ import cv2
 
 S = TypeVar("S", bound=WorldState)
 
-
 @dataclass
 class Solution(Generic[S]):
     actions: list[Action]

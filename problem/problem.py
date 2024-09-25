@@ -2,9 +2,7 @@ from abc import ABC, abstractmethod
 from typing import Generic, TypeVar
 from lle import World, Action, WorldState
 
-
 S = TypeVar("S", bound=WorldState)
-
 
 class SearchProblem(ABC, Generic[S]):
     """
